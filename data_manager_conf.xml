@@ -1,0 +1,17 @@
+<tool id="imgt_loader_igg" name="IMGT Loader" version="1.0">
+    <description> </description>
+    <command interpreter="bash">
+        upload_novoalign_lic.sh $in_file $out_file "tmp"
+    </command>
+    <inputs>
+        <param name="in_file" type="data" label="Licence for the Novoalign program" />
+    </inputs>
+
+    <outputs>
+        <data format="tabular" name="out_file" label="Novoalign License Loader on ${in_file.name}"/>
+    </outputs>
+
+    <help>
+        Loading the license file for Novo-align program to the tool-data path.  
+    </help>
+</tool>
