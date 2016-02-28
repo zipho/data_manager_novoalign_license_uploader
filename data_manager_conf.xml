@@ -1,20 +1,27 @@
-<tool id="novoalign_license_loader" name="Novo-align Licence Loader" version="1.0">
-    <description> </description>
-    <command interpreter="bash">
+<?xml version="1.0" encoding="UTF-8" ?> 
+<tool id="novoalign_license_uploader" name="Novo-align Licence Uploader" version="1.0">
+    <description>Upload a license file to Galaxy tool-data directory </description>
+    <stdio>                                                                                                      <exit_code range=":-1" />
+        <exit_code range="1:" />
+    </stdio>
+    <command interpreter="python">
         upload_novoalign_lic.py $in_file $out_file
     </command>
     <inputs>
-        <param name="in_file" type="data" label="Licence for the Novoalign program" />
+        <param  format="data" name="in_file" type="data" label="Licence for the Novoalign program" />
     </inputs>
 
     <outputs>
-        <data format="tabular" name="out_file" label="Novoalign License Loader on ${in_file.name}"/>
+        <data format="tabular" name="out_file" label="Novoalign License uploader on ${in_file.name}"/>
         <!--<move type="file">
             <source>${out_file}</source>
             <target base="${GALAXY_PATH}">/tool-data/${out_file}</target>
         </move>-->
     </outputs>
-    <help>
-        Loading the license file for Novo-align program to the tool-data path.  
+    <help>                                                                                                       Loading the license file for Novo-align program to the tool-data path.  
     </help>
+    <citations>
+        <citation></citation>
+    </citations>
+    <tests></tests>
 </tool>
