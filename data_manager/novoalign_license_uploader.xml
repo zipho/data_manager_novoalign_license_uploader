@@ -6,7 +6,7 @@
         <exit_code range="1:" />
     </stdio>
     <command interpreter="python">
-        upload_novoalign_lic.py --license_filename "${in_file}" --license_dir ${GALAXY_DATA_INDEX_DIR}
+        novoalign_license_uploader.py --license_filename "${in_file}" --license_dir ${GALAXY_DATA_INDEX_DIR}
     </command>
     <inputs>
         <param format="data" name="in_file" type="data" label="License for the Novoalign program" />
