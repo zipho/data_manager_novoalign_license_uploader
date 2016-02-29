@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data_managers>
-    <data_manager tool_file="data_manager/upload_novoalign_lic.xml" id="data_manager_novoalign_license_uploader"
+    <data_manager tool_file="data_manager/novoalign_license_uploader.xml" id="novoalign_license_uploader"
                   undeclared_tables="True" version="0.0.1">
-
     </data_manager>
 </data_managers>
