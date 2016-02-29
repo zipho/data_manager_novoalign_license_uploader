@@ -22,8 +22,6 @@
     </citations>
     <tests>
         <test>
-            <param name="input" value="novoalign_input.lic"/>
-            <output name="out_file1" file="novoalign_output.lic"/>
         </test>
     </tests>
 </tool>
