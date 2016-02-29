@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UT:F-8" ?> 
-<tool id="data_manager_novoalign_license_uploader" name="Novo-align License Uploader" version="1.0" workflow_compatible="false">
+<tool id="data_manager_novoalign_license_uploader" name="Novo-align License Uploader" version="1.0">
     <description>Upload a license file to Galaxy tool-data directory </description>
     <stdio>
         <exit_code range=":-1" />
