@@ -12,7 +12,7 @@
         <param format="data" name="in_file" type="data" label="License for the Novoalign program" />
     </inputs>
     <outputs>
-        <data format="tabular" name="out_file" label="Novoalign License uploader on ${in_file.name}"/>
+        <data format="txt" name="out_file" label="Novoalign License uploader on ${in_file.name}"/>
     </outputs>
     <help>
         Loading the license file for Novo-align program to the tool-data path.  
